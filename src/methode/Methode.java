@@ -17,13 +17,13 @@ public class Methode {
      */
     public static void main(String[] args) {
      
-        int t = my(5,10,15);
-        System.out.println("Total value is="+t);
+        int p = my(18,10,15,5);
+        System.out.println("Total value is="+p);
         
     }
     
-    public static int my(int a, int b,int c){
-        int total=a+b+c;
+    public static int my(int a, int b,int c, int d){
+        int total= (a+b)-(c+d);
        
         
         return total;
