@@ -17,16 +17,16 @@ public class Methode {
      */
     public static void main(String[] args) {
      
-        int p = my(18,10,15,5);
-        System.out.println("Total value is="+p);
+        int t = my(25,20,18,12,5);
+        System.out.println("Total value is="+t);
         
     }
     
-    public static int my(int a, int b,int c, int d){
-        int total= (a+b)-(c+d);
+    public static int my(int a, int b,int c, int d, int e){
+        int max= (a+b+c)-(d+e);
        
         
-        return total;
+        return max;
     }
 }
 
